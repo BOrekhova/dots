@@ -1,0 +1,36 @@
+window:
+  padding:
+    x: 10
+    y: 10
+
+  opacity: 0.8
+
+font:
+  normal:
+    family: JetBrains Mono
+
+  size: 13.0
+
+colors:
+  # Default colors
+  primary:
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
+
+    #dim_foreground: '#828482'
+    #bright_foreground: '#eaeaea'
+
+
+cursor:
+  # Cursor style
+  style:
+    #   - ▇ Block
+    #   - _ Underline
+    #   - | Beam
+
+    shape: Beam
+
+
+shell:
+  program: /usr/bin/fish
+
