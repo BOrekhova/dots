@@ -9,14 +9,14 @@ xbindkeys -p
 pgrep -x sxhkd > /dev/null || sxhkd &
 #/home/brb/.config/polybar/launch.sh
 #picom -b
-xsetroot -cursor_name arrow
+xsetroot -cursor_name left_ptr
 
 bspc monitor HDMI-1 -d I II III
 feh --no-fehbg --bg-scale ~/.config/bspwm/wp7june.jpg
-bspc config border_width         0
+bspc config border_width         3
 bspc config window_gap          12
+bspc config focused_border_color "#b5bd68"
 
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
-
