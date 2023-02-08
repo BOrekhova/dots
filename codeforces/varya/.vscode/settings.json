@@ -1,6 +1,5 @@
 {
     "files.associations": {
-        "iostream": "cpp",
         "array": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
@@ -45,6 +44,7 @@
         "utility": "cpp",
         "initializer_list": "cpp",
         "iosfwd": "cpp",
+        "iostream": "cpp",
         "istream": "cpp",
         "limits": "cpp",
         "new": "cpp",
@@ -54,13 +54,7 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "cinttypes": "cpp",
-        "typeinfo": "cpp",
-        "iomanip": "cpp",
-        "condition_variable": "cpp",
-        "mutex": "cpp",
-        "semaphore": "cpp",
-        "stop_token": "cpp",
-        "thread": "cpp"
+        "typeinfo": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

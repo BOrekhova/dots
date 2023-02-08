@@ -33,4 +33,4 @@ cursor:
 
 shell:
   program: /usr/bin/fish
-
+    ##test
